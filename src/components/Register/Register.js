@@ -20,7 +20,7 @@ const Register = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:4000/api/employeelist', {
+            const response = await fetch('https://taskmanager-ytz6.onrender.com/api/employeelist', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

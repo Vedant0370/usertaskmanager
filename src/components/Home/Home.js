@@ -5,8 +5,7 @@ const Home = () => {
   return (
     <>
     <Navbar/>
-    
-    
+    <h2 className='text-center fs-1 fw-bold'>Welcome </h2>
     </>
   )
 }
